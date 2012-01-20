@@ -1,0 +1,28 @@
+.main{
+	height: 270px;
+	width: 948px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#sb1{
+	display:block;
+}
+#sb2,#sb3{
+	display:none;
+}
+.navbar ul{
+	padding: 0px;
+	list-style:none outside;
+	text-align: center;
+}
+.navbar li{
+	height: 76px;
+	width 116px;
+	display:inline;
+	margin: 0px 10px;
+}
+img{
+	outline:solid black;
+	outline-width: thin;
+	margin: 0px 10px;
+}
