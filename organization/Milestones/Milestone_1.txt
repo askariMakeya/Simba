@@ -1,0 +1,62 @@
+Milestone 1 - UI/UX Design Mockup
+
+Think about your users. Who is likely to use your site? Come up with at least two different personas and one use case for your site.
+###Identify at least one user variable (technical expertise, familiarity with topic, frequency of visits).
+o	Age
+o	Familiarity with current events
+o	Frequency of visits to site
+o	Location
+o	Usage of other news sites
+o	Interests
+
+Persona 1: Wants to be involved with politics, but doesn't have think they know enough to participate or have an opinion. College student age, would check site monthly or weekly (when influential events happen).
+Persona 2: Already involved with politics, wants to keep up with the latest information as well as cross reference information.
+
+Sit down with three people, and conduct user research interviews on each of them. Briefly summarize these interviews.
+###Use these interviews to develop your personas.
+	Person 1: Doesn't follow politics because there is a lot crap out there and it does not feel relevent to them.  It's hard to know what's true.
+	Person 2: Doesn't know enough about the issues at hand and politician's stands on them to take a part in politics.
+	Person 3: Keeps up with politics as much as possible, but doesn't know about issues he doesn't feel is relevent to his life.
+
+###Identify one use case for your site.
+	For people who want to follow politics but feel overwhelmed by the amount of information or don't know enough to get started, our site will be beneficial.
+	It will allow them to see all of the background information on topics that are relevent to them.
+
+Think hard about your most complicated page. What are the important features of this page? What usability problems may come up? For your most import page:
+Important Features:
+	- Timeline
+	- Fact that articles are sorted by time
+	- Can see articles without leaving page
+	- Endless scrolling
+Possible Usability Problems:
+	- Unclear how to get back to where you came from
+	- Jarring to go to timeline from clicking on atricle
+	- How slow it is to scroll
+	- Stacked articles, may be hard to see all of them at a time
+	
+###Draw out, by hand, three designs for this page. Scan these for your submission. - Rebecca
+###Make a list of pros and cons for each design (3 pros and 3 cons for each).
+###Pick the best one and mock it up using a program such as Photoshop, Inkscape, Gimp...
+
+
+Additionally, please answer the following questions. Please be succinct as we
+1.	What problem does your application address? Aim for 1-2 sentences.
+	We plan to address the issue of lack of involvement of students in politics.  Make it easier to get all the information surrounding a certain candidate or issue.
+2.	How does your application address the problem above? Aim for one sentence. The next question is a better place for elaborate explanations.
+	We have a timeline that let's the users see the history of an issue.
+3.	What is the killer feature of your application?
+	Timeline.
+4.	Which of the themes does your application match? Your answer should be one sentence if the match is reasonably obvious. Be as brief as you can. If your application matches both themes, list the one where the matching is more obvious.
+	Politics, partially education.
+5.	What technology do you plan to use for your server-side programming (e.g. PHP, Ruby on Rails, etc)?
+	PHP
+6.	Who is on your team? You may list at most 3 people. For each member list the full legal name, .edu e-mail, school, major(s), year, and graduate/undergraduate status.
+	Rebecca Odim, Patrick Gichuiri, Ibrahim Abdussabur
+7.	How did the team members meet? This will help us know you better.
+	Classes
+8.	What risks do you envision preventing you from successfully implementing your idea? Consider this an exercise of imagination, not a test of confidence.
+	Time restraints, learning process.
+9.	Are you planning to participate in the competition? Your answer will solely be used for planning purposes.
+	Yes.
+###Submit a PDF (or a ZIP if you have multiple files) to Stellar that addresses each of the bullet points and numbered questions above. Only one person from your group needs to submit this but make sure your teammates are listed.
+

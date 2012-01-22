@@ -1,0 +1,26 @@
+Team Name: Simba
+Team Members: Rebecca Odim, Ibrahim Abdussabur, Patrick Gichuiri
+Topic: Politics
+Idea: A site that makes it easier for people to keep up with current events.  Using a timeline structure, this site will
+give people interested in politics background information on issues (starting with most current and tracing back).
+
+
+
+Homepage
+	- options for browsing the news in different ways (map, timeline, categories)
+	- top content from each category
+Subject Page
+	- list of topics within that subject and timeline's pop up and extend to right
+Timeline
+	- links to news articles and events
+	
+??Features users and accounts (will allow for greater customization of news)
+	
+	
+	
+**content will be used from major newspaper sites
+
+TO DO:
+	Milestone 1
+	Create Timeline-like application
+	Design the look of the site
