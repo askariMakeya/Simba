@@ -2,6 +2,7 @@
 // If not then we will be redirected to the main web page 
 // This code is going to appear at the start of the web page
 <? 
+echo $myusername;
 session_start();
 if(!session_is_registered(myusername)){
 header("location:main_login.php");
@@ -20,7 +21,7 @@ header("location:main_login.php");
 	</head>
 	<body>
 		<h1>
-			<p class = "serif">Welcome, you are now logged in</p>
+			<p class = "serif">Welcome <?php echo $myusername ?>, you are now logged in</p>
 		</h1>
 	</body>
 </html>

@@ -1,0 +1,16 @@
+<form name="loginform" id="loginform" method="post" action="../logininfo/check_login.php">
+	<div>
+		<div>
+			<input type="hidden" name="page" value="verify_login"/>
+			<input type="hidden" name="sourcepage" value="" />
+			Username:<br/><input id="loginid" class="formfield" name="loginid" type="text" size="20" value=""/><br/>
+			Password:<br/><input class="formfield" name="password" type="password"  size="20" value=""/><br/>
+		<input class="button" type="submit" name="submit" value="Sign in"/>
+		<input class="button" type="button" name="submit" value="Cancel" onclick="TINY.box.hide();"/>
+		<br/><span class="reg">Not registered? Click <a style="color:#0000FF" href="../logininfo/register.php" onclick="javascript:TINY.box.hide(); return true;">here</a>.</span>
+	</div>
+	<div id="invalidpassword">
+	<!--Retry_message-->
+	</div>
+	</div>
+</form>	
