@@ -51,11 +51,11 @@ if (isset($_SESSION['myusername'])) {
 		            if(result == 1){  
 		                //show that the username is available  
 		                document.getElementById("submit").value="Signup";
-		                document.getElementById("loginsignup").action="..logininfo/register.php"; 
+		                document.getElementById("loginsignup").action="../logininfo/register.php"; 
 		            }else{  
 		                //show that the username is NOT available  
 		                document.getElementById("submit").value="Login";  
-		                document.getElementById("loginsignup").action="..logininfo/check_login.php"; 
+		                document.getElementById("loginsignup").action="../logininfo/check_login.php"; 
 		                }  
 		        });  
 		  
