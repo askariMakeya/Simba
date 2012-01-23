@@ -1,9 +1,9 @@
 <?php
 $host = "localhost"; 			// Host name 
-$username = ""; 				// Mysql username 
-$password = ""; 				// Mysql password 
-$db_name = "test"; 			// Database name 
-$tbl_name = "members"; 		// Table name
+$username = "root"; 				// Mysql username 
+$password = "root"; 				// Mysql password 
+$db_name = "simba"; 			// Database name 
+$tbl_name = "users"; 		// Table name
 
 // This will connect to our Simba server and select the username/password databse.
 $connection = mysql_connect("$host", "$username", "$password");
