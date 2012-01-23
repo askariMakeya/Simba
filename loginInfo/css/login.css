@@ -1,0 +1,25 @@
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}
+
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+    display: block;  
+}
+
+body {
+	/*background-color: #000000;*/
+	background-image: url(images/bg_test.png);
+	background-repeat: repeat;
+}
+
+#login {
+	width: 300px;
+	border: 0px;
+	float: none;
+	padding: 5px;
+	margin: auto;
+	vertical-align: middle;
+}

@@ -1,7 +1,10 @@
 <html>
+	<head>
+		<title>Main Login</title>
+		<link href="css/login.css" rel="stylesheet" type="text/css" />
+	</head>
 	<body>
-		<table width="300" border="0" align="right" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
-			<tr>
+		<div id="login">
 				<form name="form1" method="post" action="check_login.php">
 					<td>
 						<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
@@ -26,7 +29,6 @@
 						</table>
 					</td>
 				</form>
-			</tr>
-		</table>
+			</div>
 	</body>
 </html>
