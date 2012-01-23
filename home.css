@@ -1,0 +1,140 @@
+body{
+	background-color:#cccccc;
+	margin:0px;
+	font-family:'Gill Sans', sans-serif
+}
+/* http://colorschemedesigner.com/#3l11T9pP.ebOE */
+.mainsite{
+	width: 968px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	background-color:#CEF3F8;
+}
+.mainsite .top{
+	background-color: #E5F6F8;
+	margin:0px;
+	padding:20px;
+	height:150px;
+	box-shadow: 5px 5px 2.5px #888;
+}
+.mainsite .title{
+	width:500 px;
+	margin:0px auto;
+	text-align:center;
+	padding:0px;
+	color: black;
+	position: relative;
+	/*background-color:red;*/
+}
+.mainsite .title h1{
+	font-size: 4.0em;
+	margin:0px;
+	line-height: 1;
+	padding:0px;
+}
+.mainsite .title h4{
+	margin:0px;
+	padding:0px;
+}
+.mainsite .signup{
+	text-align: right;
+	padding:0px;
+	margin:0px;
+}
+.mainsite .logon{
+	/*background-color:red;*/
+	width: 158 px;
+	float:right;
+	position:relative;
+	top:-100px;
+}
+.mainsite .top .simba{
+	width:250px;
+	position:absolute;
+	left:20px;
+	top:5px;
+	border:solid white;
+	box-shadow: 5px 5px 2.5px #888; 
+}
+.mainsite .categorybar{
+	padding:0;
+	list-style:none;
+	width:967px;
+	margin-top: 0;
+	position: absolute;
+	z-index:2;
+	left:0px;
+	border:solid gray;
+	border-width:thin;
+	line-height:21px;
+}
+.mainsite .categorybar li a{
+	text-decoration:none;
+	padding: 5px 2px;
+	color:#eee;
+	background:#67AFBA;
+	width:104px;
+	text-align:center;
+	float:left;
+	border-left: 1px solid black;
+}
+.mainsite .categorybar li a#first{
+	width:200px;
+	border-left:none;
+}
+.mainsite .categorybar li a#last{
+	width:104px;
+}
+.mainsite .categorybar li a:hover{
+	background-color:#CEF3F8;
+	color: black;
+}
+
+.mainsite .main{
+	height: 270px;
+	width: 948px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+.mainsite .main .text{
+	width:306px;
+	height:270px;
+	z-index:5;
+	position:absolute;
+	top:0px;
+	right:-10px;
+	color:#eee;
+	padding: 5px;
+}
+#sb1,#st1{
+	display:block;
+}
+#sb2,#sb3,#sb4,#sb5,#st2,#st3,#st4,#st5{
+	display:none;
+}
+.navbar ul{
+	padding: 0px;
+	list-style:none outside;
+	text-align: center;
+}
+.navbar li{
+	height: 76px;
+	width 116px;
+	display:inline;
+	margin: 0px 10px;
+}
+.main img{
+	margin: 0px 10px;
+	box-shadow: 5px 5px 2.5px #888;
+	position:relative;
+	left:-10px;
+	border:solid white;
+}
+.navbar img{
+	border:solid white;
+	box-shadow: 5px 5px 2.5px #888;
+}
+

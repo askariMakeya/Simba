@@ -5,7 +5,7 @@
 		<script type="text/javascript">
 			var cname = 's1'
 			$(document).ready(function(){
-				$("li").hover(function(){
+				$(".navbar li").hover(function(){
 					$(".navbar ."+cname+" img").css("border","none");
 					$("#sb"+cname.charAt(1)).hide();
 					cname = this.className;
