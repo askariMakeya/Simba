@@ -19,6 +19,7 @@ if (isset($_SESSION['myusername'])) {
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
 		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+		
 		<script type="text/javascript">
 			$(document).ready(function(){    
 				$('#loginPopup').hide();
@@ -35,8 +36,30 @@ if (isset($_SESSION['myusername'])) {
 				    return false;
 				});
 			});
-			
-			
+		</script>
+		<script type="text/javascript">
+        	//function to check username availability  
+			function check_availability(){  
+		  
+		        //get the username  
+		    	var myusername = $('#myusername').val();  
+		  
+		        //use ajax to run the check  
+		    	$.post("../logininfo/check_usr.php", { myusername: myusername },  
+		        function(result){  
+		            //if the result is 1  
+		            if(result == 1){  
+		                //show that the username is available  
+		                document.getElementById("submit").value="Signup";
+		                document.getElementById("loginsignup").action="..logininfo/register.php"; 
+		            }else{  
+		                //show that the username is NOT available  
+		                document.getElementById("submit").value="Login";  
+		                document.getElementById("loginsignup").action="..logininfo/check_login.php"; 
+		                }  
+		        });  
+		  
+		}  
 		</script>
 	</head>
 	<body>
@@ -55,13 +78,13 @@ if (isset($_SESSION['myusername'])) {
 				</div>
 				<input type="text" class="search" name="search" value="search" placeholder="Search" />
 				<div id="loginPopup" class="divLoginDialog">
-					<form name="form1" method="post" action="../logininfo/check_login.php">
-						<input name="myusername" type="text" id="myusername" placeholder="Username" />
+					<form id="loginsignup" name="form1" method="post" action="../logininfo/check_login.php">
+						<input name="myusername" type="text" id="myusername" placeholder="Username" onkeyup="check_availability(this.id)" />
 						</br>
 						<input name="mypassword" type="text" id="mypassword" placeholder="Password" />
 						</br>
 						<a href=# class=hide><input type="button" name="Cancel" value="Cancel" style="width:70px;" /></a>
-						<input type="submit" name="Submit" value="Login" style="width:70px;" />
+						<input id="submit" type="submit" name="Submit" value="Login" style="width:70px;" />
 					</form>
 				</div>
 				<div id="nav">
